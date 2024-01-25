@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    background-image: linear-gradient(45deg, #6234d3 40%, #9d40bd);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Montserrat", Arial, sans-serif;
+    color: white;
+    flex-direction: column;
+}
+
+.todoHeader{
+    font-size: 63px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+span {
+    font-weight: 700;
+}
+
+
+.bodytodo{
+    min-height: 260px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 50%);
+    /* border-radius: 40px; */
+    margin-top: 20px;
+   
+
+}
+
+
+.addNewTask  {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.addnew{
+    width: 500px;
+    font-size: 25px;
+    margin: 20px 0px;
+    border-radius: 40px;
+    background-color: transparent;
+    padding: 15px 15px 15px 30px;
+    color: white;
+    border: 1px solid white;
+    font-weight: 300;
+}
+
+.rame{
+     position: relative; 
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+} 
+
+.error{
+    display: none;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.active{
+    display: block;
+}
+
+.plus{
+     position: absolute;
+     padding-right: 30px;
+    /* right: 5%;
+    top: 35%;  */
+}
+
+.plus:hover {
+    cursor: pointer;
+}
+
+.icon{
+   display: flex;
+   gap: 15px;
+   background-color: transparent;
+   border: none;
+   padding: 5px;   
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+/* .task{
+    display: flex;
+    background-color: rgba(255, 255, 255, 50%);
+    justify-content: space-between; */
+
+/* } */
+
+/* .taskText{
+    padding: 20px;
+    display: flex;
+    color: black;
+    justify-content: flex-start;
+} */
+
+
+ul{
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    background-color: rgba(255, 255, 255, 50%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 20px;
+    /* display: flex; */
+    color: black;
+    /* justify-content: flex-start; */
+}
+
+
+.completed{
+    color: #969696;
+    font-style: italic;
+    background-color: rgba(85, 38, 255, 0.5);
+}
+
+.edit{
+    background-color: rgba(38, 132, 255, 0.5);
+}
+
+.editInput{
+    position: absolute;
+    width: 350px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+   
+}
+
+.goodbye{
+    display: none;
+}
